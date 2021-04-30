@@ -1,0 +1,37 @@
+<!-- 
+<app-header></app-header>
+
+<router-outlet></router-outlet> -->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>CODE HEIST | Free Blog Website</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+</head>
+
+<body [ngClass]="{'is-menu-visible': menuVisible }">
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <app-header id="header"> </app-header>
+
+    <!-- Header -->
+    <router-outlet id="main"></router-outlet>
+
+    <!-- Footer -->
+    <app-footer id="footer"></app-footer>
+
+  </div>
+
+
+  <app-menu></app-menu>
+
+  <!-- Scripts -->
+
+
+</body>
+
+</html>

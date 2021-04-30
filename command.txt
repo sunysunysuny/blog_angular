@@ -1,0 +1,19 @@
+ng g m blog-web --module app.module
+
+ng g m blog-admin --module app.module
+
+
+ng g m blog-web/home --module blog-web.module && ng g c blog-web/home
+
+
+
+ng g m blog-web/home --module blog-web.module
+ng g c blog-web/header --module blog-web.module
+
+
+ng g c blog-web/blog-list --module blog-web.module
+
+ng g c blog-web/single-blog --module blog-web.module
+
+
+ng g service blog-web/common
